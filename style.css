@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  background-image: url('https://th.bing.com/th/id/OIP.uNv4XrzUSExpqo4aX-w93wHaFb?w=252&h=185&c=7&r=0&o=7&pid=1.7&rm=3');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.todo-app {
+  background-color: rgb(195, 42, 167);
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #1809f5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e3a8a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f3f4f6;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li span {
+  flex: 1;
+}
+
+li button {
+  background-color: #ef4444;
+  border: none;
+  padding: 4px 8px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+li button:hover {
+  background-color: #b91c1c;
+}
